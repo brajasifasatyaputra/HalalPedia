@@ -1,0 +1,37 @@
+{
+  "name": "scproperty",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "rm -rf .next && next build",
+    "lint": "next lint",
+    "start": "next start -p 4500"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.15.0",
+    "@ramonak/react-progress-bar": "^3.2.1",
+    "autoprefixer": "^10.3.4",
+    "axios": "^0.21.4",
+    "firebase": "^9.0.1",
+    "moment": "^2.29.1",
+    "next": "^11.1.2",
+    "next-pwa": "^5.3.1",
+    "rc-progress": "^3.1.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-multi-carousel": "^2.6.5",
+    "react-select": "^4.3.1",
+    "sharp": "^0.29.0",
+    "sweetalert2": "^11.1.4",
+    "swr": "^1.0.0",
+    "tailwindcss": "^2.2.10",
+    "zustand": "^3.5.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1"
+  }
+}
